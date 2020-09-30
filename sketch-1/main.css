@@ -1,0 +1,172 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: #CADBD0;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.table {
+	position: absolute;
+	width: 1000px;
+	height: 100px;
+	background: #FFF3E6;
+	bottom: 0;
+}
+
+.squash {
+	position: absolute;
+     width: 270px;
+     height: 170px;
+  	 background-image: linear-gradient(#FFF1AB, #FAB846);
+     border-radius: 46%;
+     bottom:60px;
+     right: 270px;
+     z-index: 1;
+    }
+
+    .squash-tip {
+		position: absolute;
+		width: 18px;
+		height: 40px;
+		top: 60px;
+		left: 10px;
+		background-color: #B5A07B;
+		border-radius: 50%;
+		z-index: 2;
+    }
+
+.pot {
+	position: absolute;
+	bottom: 20px;
+	left: 80px;
+	width: 300px;
+	height: 300px;
+}
+
+		.bowl {
+			position: absolute;
+		     width: 300px;
+		     height: 270px;
+		     background-color: #2E140C;
+		     border-radius: 50%;
+		     bottom:0px;
+		    }
+
+		.lid {
+			position: absolute;
+			height: 80px;
+			width: 300px;
+			border-radius: 100%;
+			background-color: #4D322A;
+			z-index: 1;
+			top: 10px;
+		}
+
+		.lid_rim {
+			position: absolute;
+			height: 50px;
+			width: 250px;
+			left: 20px;
+			top: 20px;
+			border-radius: 100%;
+			border: 5px solid #2E140C;
+			z-index: 2
+		}
+
+
+		.handle {
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			left: 125px;
+			background-color: #2E140C;
+		    border-radius: 50%;
+		    z-index: 2;
+		}
+
+.vase {
+	position: absolute;
+	width: 200px;
+	height: 450px;
+	bottom: 35px;
+	right: 220px;
+	z-index: 3;
+}
+
+	.vase-top {
+		position: absolute;
+		background-color: white;
+		opacity: 0.7;
+		z-index: 4;
+		width: 200px;
+		height: 400px;
+		bottom: 45px;
+		border-radius: 0 0 40px 40px;
+		z-index:8;
+	}
+
+	.vase-bottom {
+		position: absolute;
+		 height:45px;
+	     width:200px;
+	     border-radius: 90px 90px 0 0;
+	     background-color: white;
+	     opacity: 0.7;
+	     bottom: 0px;
+	}
+
+	.flower1 {
+		width: 10px;
+	    height: 300px;
+	    background: green;
+	    transform: rotate(15deg);
+	    position: absolute;
+	    left: 110px;
+	    bottom: 200px;
+	    z-index:5;
+	}
+
+	.flower2 {
+		width: 10px;
+	    height: 300px;
+	    background: green;
+	    transform: rotate(-15deg);
+	    position: absolute;
+	    left: 80px;
+	    bottom: 200px;
+	}
+
+	.flower3 {
+		width: 10px;
+	    height: 300px;
+	    background: green;
+	    transform: rotate(20deg);
+	    position: absolute;
+	    left: 130px;
+	    bottom: 200px;
+	}
+
+
+	.flower4 {
+		width: 10px;
+	    height: 300px;
+	    background: green;
+	    transform: rotate(-5deg);
+	    position: absolute;
+	    left: 80px;
+	    bottom: 200px;
+	}
